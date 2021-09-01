@@ -1,0 +1,1 @@
+import sys; [(lambda text: print("".join([str(abs(ord(text[ch])-ord(text[ch+1]))) for ch in range(len(text)-1)])))(x.strip()) for x in sys.stdin]
