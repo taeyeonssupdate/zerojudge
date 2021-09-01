@@ -1,0 +1,1 @@
+import sys; [print(abs(eval(x.strip().replace(' ',"-")))) for x in sys.stdin]
